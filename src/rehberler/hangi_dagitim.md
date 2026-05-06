@@ -22,14 +22,6 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bileşenler arasında WINE bağımlılıkları, OBS Studio, GStreamer gibi üçüncü taraf codec paketleri, NVIDIA gibi üçüncü taraf sürücüler ve çeşitli küçük paket düzeltmeleri bulunmaktadır.
 
-### ChimeraOS
-
-[ChimeraOS](https://chimeraos.org/), ChimeraOS, kurulumu tamamladığın anda seni oyunlara hazır hale getiren bir işletim sistemidir. Sistemi açtığında doğrudan Steam Big Picture arayüzüne girer, böylece koltuğundan kalkmadan oyunlara dalabilirsin. Eğer Steam’i salonuna taşımak istiyorsan, aradığın sistem ChimeraOS.
-
-!!! note
-
-    ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Picture modunda çalışır.
-
 ## Modern ve stabil bir dağıtım arıyorum
 
 ### Fedora
@@ -54,11 +46,13 @@ Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bil
 
 [Ubuntu](https://ubuntu.com/), Linux tabanlı özgür ve ücretsiz bir işletim sistemidir. Bilgisayarlar, sunucular ve akıllı telefonlara yönelik olarak geliştirilmektedir. Ubuntu projesi Linux ve özgür yazılımın, bilgisayar kullanıcılarının günlük yaşamının bir parçası haline gelmesi amacıyla başlatılmış olup ilk kararlı masaüstü sürümü Ekim 2004'te yayınlanmıştır. Ubuntu'nun masaüstü sürümü günümüzde 40 milyonu aşkın kullanıcı sayısıyla dünyanın en yaygın kullanılan masaüstü Linux dağıtımı konumundadır.
 
-### Pop!\_OS
+### Kubuntu
+[Kubuntu](https://kubuntu.org/), KDE masaüstünü kullanan resmi bir Ubuntu varyantıdır. Ubuntu'nun bütün avantajlarını özelleştirilebilir bir KDE masaüstünde size sunar. Arayüz benzerliği açısından Windows'dan gelenlere normal Ubuntu'dan daha mantıklı gelebilir. Discover mağazası sayesinde bütün deb, Snap ve Flatpak(varsayılan olarak yüklü gelmez) paketlerinizi tek grafik arayüzünden kolaylıkla yönetebilirsiniz.
 
-[Pop OS](https://system76.com/pop/) (Pop!\_OS olarak da stilize edilir), Ubuntu tabanlı, ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. Özelleştirilmiş bir GNOME masaüstü ortamı olan COSMIC ile birlikte gelir. Dağıtım, Amerikalı Linux bilgisayar üreticisi System76 tarafından geliştirilmiştir.
 
-Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kurulu olarak sunulmak üzere geliştirilmiştir, ancak çoğu bilgisayara da indirip kurmak mümkündür.
+### Bluefin/Aurora
+
+[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora tabanlı dağıtımlardır. Atomic yapısı sayesinde bozması neredeyse imkansızdır. Güncellemeler kolaylıkla yapılır, tek bir komutla da geri çevirilebilir. Bazzite gibi NVIDIA driverları yüklü gelir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda rpm-ostree kullanılarak standart paketlere erişim sağlanılabilir.
 
 ### Elementary OS
 
@@ -74,21 +68,10 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### CachyOS
 
-[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir.
+[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Normal Proton'dan daha fazla özelliğe ve optimizasyona sabip olan Proton-CachyOS ile gelir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir.
 
-### Garuda Linux
-
-Wikipedia'dan:
-
-[Garuda Linux](https://garudalinux.org/), Arch Linux tabanlı ve özellikle oyun odaklı bir Linux dağıtımıdır. Birden fazla masaüstü ortamı seçeneği sunmakla birlikte, varsayılan olarak KDE Plasma sürümü tercih edilmektedir.
-
-### Archcraft
-
-[Archcraft](https://archcraft.io/), Arch Linux tabanlı minimal bir Linux dağıtımıdır. Bu proje, tam teşekküllü masaüstü ortamları yerine minimal pencere yöneticileri kullanarak grafiksel bir kullanıcı arayüzü sunar. Archcraft, Calamares sistem yükleyicisi kullanılarak kurulur ve Arch User Repository'den (AUR) paket indirmeyi kolaylaştırmak için yay paket yöneticisini içerir.
-
-### Manjaro
-
-[Manjaro](https://manjaro.org/), Arch Linux tabanlı, kullanıcı dostu ve erişilebilir bir Linux dağıtımıdır. Rolling release modeliyle güncel yazılımlar sunarken, Arch’ın karmaşıklığını azaltmak için grafiksel kurulum araçları ve önceden yapılandırılmış masaüstü ortamları sağlar. Manjaro, geniş donanım desteği ve kapsamlı sürücü paketleriyle özellikle yeni başlayanlar ve günlük kullanım için dağıtım arayan kullanıcılar arasında popülerdir. KDE Plasma, XFCE ve GNOME gibi çeşitli masaüstü seçenekleri mevcuttur.
+### EndeavourOS
+[EndeavourOS](https://endeavouros.com/), Arch Linux tabanından çok farklılaşmayan bir Linux dağıtımıdır. Orta üst teknik bilgili kullanıcılara hitap eder. CachyOS gibi onlarca masaüstü ortamı arasında seçim yapabilir ve Calamares kurucusu sayesinde kolayca sisteminizi kurabilirsiniz. EndeavourOS paket yönetimi varsayılan olarak terminalden yapılır ve "yay" isimli [AUR yardımcısıyla](https://wiki.archlinux.org/title/AUR_helpers) gelir. Eğer Arch kurmak gözünüzde büyük geliyorsa ve daha kolay bir deneme yolu istiyorsanız EndeavourOS deneyebilirsiniz.
 
 ## Hafif ve stabil bir dağıtım arıyorum
 
@@ -139,3 +122,15 @@ Diğer geleneksel Linux dağıtımlarından farklı olarak, NixOS’ta paket yö
 ### Void Linux
 
 [Void](https://voidlinux.org/), monolitik Linux çekirdeğine dayanan, bağımsız olarak geliştirilmiş, genel amaçlı bir işletim sistemidir. Kullanıcıların yazılımları hızlı bir şekilde yüklemelerine, güncellemelerine ve kaldırmalarına veya XBPS kaynak paketleri koleksiyonunun yardımıyla kaynaklardan doğrudan yazılım oluşturmalarına olanak tanıyan hibrit bir ikili/kaynak paket yönetim sistemine sahiptir. Dağıtımın diğer özellikleri arasında Raspberry Pi tek kartlı bilgisayarlar (hem armv6 hem de armv7) için destek, günlük güncellemelerle yuvarlanan sürüm modeli ve “runit” adlı yerel init sistemi bulunmaktadır.
+
+## Özel donanımlarım için bir dağıtım arıyorum
+
+### Fedora Asahi Remix
+
+[Fedora Asahi Remix](https://asahilinux.org/fedora/), Apple Silicon cihazların Linux'ta çalışmasını sağlayan Asahi Linux projesinin resmi Fedora tabanlı dağıtımıdır. Dezavantajları(daha kısa batarya ömrü vb.) olsa da size Apple cihazlarda neredeyse çoğu şeyi destekleyen bir Linux ARM masaüstü deneyimi sunar hatta bazı durumlarda MacOS'ten daha hızlıdır. Şuan sadece M1 ve M2 cihazları desteklese de yakın gelecekte M3 desteğinin gelmesi beklenmektedir.
+
+### Adélie Linux
+[Adélie Linux](https://www.adelielinux.org/), PowerPC mimarisini desteklemesiyle bilinen bir Linux dağıtımıdır. Özellikle eski PowerPC Maclerde çoğu distro desteği kesmesine rağmen size güncel ve hafif bir Linux masaüstü deneyimi sunar. Paket yöneimini APK paket yöneticisinden yapılır fakat çok bilinen bir dağıtım olmadığı için istediğiniz her paketi bulamayabilirsiniz
+
+### postmarketOS
+[postmarketOS](https://postmarketos.org/), Android telefonlar için bir Alpine tabanlı dağıtımdır. Android/iOS ikileminden kurtulmak ve telefonunda masaüstü Linux deneyimi yaşamak isteyenler için idealdir. Plasma Mobile, Phosh, GNOME Mobile, SXMO ve bir sürü mobil Linux masaüstü ortamını destekler. Paket yönetimi olarak APK kullanır ve Waydroid üzerinden Android uygulamaları çalıştırmanıza imkan sunar. Fakat cihaz ve uygulama desteğinin kısıtlı olması sebebiyle herkese önerilmez.
